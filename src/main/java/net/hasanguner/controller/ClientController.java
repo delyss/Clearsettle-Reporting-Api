@@ -50,7 +50,7 @@ public class ClientController {
 
         }
 
-        log.info("Transactions report request -> with : {} ", clientRequest);
+        log.info("Client info request -> with : {} ", clientRequest);
 
         if (bindingResult.hasErrors()) {
 
